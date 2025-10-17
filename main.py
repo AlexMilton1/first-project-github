@@ -18,6 +18,9 @@ def about():
 def bet():
     return "let's bet on your luck"
 
+@app.route("/net")
+def net():
+    return "network is the key"
 
 
 if __name__=="__main__":
