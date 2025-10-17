@@ -11,7 +11,7 @@ def home():
     return "home Page"
 
 @app.route("/about")
-def home():
+def about():
     return "Hi This is the Test Site"
 
 
