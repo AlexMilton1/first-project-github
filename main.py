@@ -14,6 +14,9 @@ def home():
 def about():
     return "Hi This is the Test Site"
 
+@app.route("/bet")
+def bet():
+    return "let's bet on your luck"
 
 
 
