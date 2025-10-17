@@ -10,6 +10,9 @@ def index():
 def home():
     return "home Page"
 
+@app.route("/about")
+def home():
+    return "Hi This is the Test Site"
 
 
 
